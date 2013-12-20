@@ -1,4 +1,8 @@
-## usage
+# Docker Selenium Grid
+
+Docker containers to run a selenium grid cluster on your laptop
+
+## Usage
 
 	Usage:    grid.sh <action>
 	
