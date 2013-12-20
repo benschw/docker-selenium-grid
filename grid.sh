@@ -3,6 +3,10 @@
 # port to expose hub over, e.g. use 4445 and let vagrant route that back
 # through 4444 if running grid in a vagrant vm
 HUB_PORT="4444"
+if [ "$2" != "" ]; then
+	HUB_PORT=$2
+fi
+
 HUB_IMAGE="benschw/selenium-hub"
 NODE_IMAGE="benschw/selenium-node-firefox"
 
