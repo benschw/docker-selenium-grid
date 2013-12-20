@@ -13,3 +13,5 @@
 	          stopNode    remove a node from the grid
 
 
+or if you aren't running linux or otherwise want to run this in a vagrant image,
+[grab one here](https://github.com/benschw/vagrant-selenium-grid) and get going with a simple `vagrant up`
