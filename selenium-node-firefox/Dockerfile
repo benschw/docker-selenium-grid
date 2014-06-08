@@ -4,7 +4,7 @@ FROM ubuntu
 
 RUN dpkg-divert --local --rename --add /sbin/initctl && ln -s /bin/true /sbin/initctl
 
-RUN apt-get install -y python-software-properties python curl
+RUN apt-get install -y software-properties-common python curl
 RUN add-apt-repository ppa:webupd8team/java
 RUN apt-get update
 
